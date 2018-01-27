@@ -1,0 +1,10 @@
+
+*.pyc
+*.swp
+*.*~
+.Rhistory
+.ipynb_checkpoints
+*.aux
+*.log
+*.out
+*.gz
