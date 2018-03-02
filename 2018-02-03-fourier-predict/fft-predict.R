@@ -29,7 +29,7 @@ predictSignal<-function(origSig, maxComponents, horizon){
   return(fourierEstim)
 }
 
-n_components = 5#5
+n_components = 5
 dat <- sin(seq(1,100)* 2*pi/30) + rnorm(100)*0.1
 predictions <- predictSignal(dat, n_components, 30)
 dat <- c(dat, rep(NA, 30))
